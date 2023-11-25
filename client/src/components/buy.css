@@ -1,0 +1,39 @@
+form {
+    margin: auto auto;
+    background-color: #292828;
+    box-shadow: 0px 0px 5px #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background: rgb(28, 49, 153);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(32, 95, 232)
+}
+
+button:disabled {
+    background: rgba(121, 121, 121, 0.6);
+    cursor: not-allowed;
+    
+}
